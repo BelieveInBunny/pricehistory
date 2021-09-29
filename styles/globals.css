@@ -1,0 +1,10 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@font-face {
+    font-family: "Signika";
+    src: url("/Signika/Signika-Regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
