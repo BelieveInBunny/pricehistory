@@ -1,34 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a basic template application which can be used to create for price tracking based applications.
 
-## Getting Started
+Frontend was built using ReactJS/ NextJS.
 
-First, run the development server:
+# Features: #
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+* On the initial load the searchbox and todays deals are loaded
+* Once the user enters valid URL the unique value such as ID, Ex: ASIN for amazon is extracted and validated using api
+* If its a valid URL the relevant data is fetched and area chart with basic card displays the relevant data
+* The pages FAQ provides basic template to add frequestly asked questions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Home #
+![image](https://user-images.githubusercontent.com/3611461/135275195-48ecea4d-2ea1-4a87-9aec-7d90798bb59b.png)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# FAQ #
+![image](https://user-images.githubusercontent.com/3611461/135275772-7a71f8c4-80ea-44a6-b5f4-bb45a8683063.png)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# About #
+![image](https://user-images.githubusercontent.com/3611461/135275966-15eb953e-e244-4add-a5ed-a8d0b919b5c2.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Footer #
+![image](https://user-images.githubusercontent.com/3611461/135276037-c79b6929-5129-48a0-8095-dc96b088f922.png)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
